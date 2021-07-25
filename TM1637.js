@@ -137,7 +137,7 @@ TM1637.prototype.stop = function () {
 TM1637.prototype.show = function (str) {
     let numsEncoded = ("" + str)
         .split("")
-        .reduce((acc, num) => {
+        .reduce( function (acc, num) {
             if (num === ".") {
                 // show point for previous number if needed
                 acc[acc.length - 1] |= 0b10000000;
