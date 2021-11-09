@@ -14,3 +14,6 @@ display.show("1234");
 ``` 
 
 ![pic](./example.jpeg)
+
+# FIX
+* 2021.07.25 Espruino 2v01.49
